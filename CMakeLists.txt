@@ -11,12 +11,17 @@ project(${PROJECT_NAME} CXX)
 
 # Check if the project is built inside mc_rtc
 if(NOT TARGET mc_rtc::mc_control)
-  find_package(mc_rtc REQUIRED)
+    find_package(mc_rtc REQUIRED)
 endif()
 
 add_subdirectory(src)
 
 set(AROBASE "@")
-configure_file(etc/RandomJointsExample.in.yaml "${CMAKE_CURRENT_BINARY_DIR}/etc/RandomJointsExample.yaml")
-install(FILES "${CMAKE_CURRENT_BINARY_DIR}/etc/RandomJointsExample.yaml" DESTINATION "${MC_CONTROLLER_RUNTIME_INSTALL_PREFIX}/etc")
-
+configure_file(
+    etc/RandomJointsExample.in.yaml
+    "${CMAKE_CURRENT_BINARY_DIR}/etc/RandomJointsExample.yaml"
+)
+install(
+    FILES "${CMAKE_CURRENT_BINARY_DIR}/etc/RandomJointsExample.yaml"
+    DESTINATION "${MC_CONTROLLER_RUNTIME_INSTALL_PREFIX}/etc"
+)
