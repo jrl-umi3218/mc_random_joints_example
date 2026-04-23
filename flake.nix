@@ -20,8 +20,7 @@
             flakoboros = {
               extraPackages = [ "ninja" ];
 
-              overrideAttrs.mc-rtc =
-              {
+              overrideAttrs.mc-rtc = {
                 src = inputs.mc-rtc;
               };
 
