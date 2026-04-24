@@ -70,7 +70,7 @@
                     Timestep = 0.001;
                     # plugins = [ pkgs-final.mc-force-shoe-plugin ];
                     # observers = [ pkgs-final.mc-state-observation ];
-                    # apps = [];
+                    apps = [ pkgs-final.mc-rtc-magnum ];
                   };
                 };
 
