@@ -4,6 +4,7 @@ This will:
 - Generate random joint positions (within the robot kinematics limits)
 - Track them with a posture task
 - or disable the QP entirely and set the generated target as output directly
+- The QP is enabled/disabled from a state by setting a `RandomJointsExample::DisableQP` flag in the datastore. This flag is checked by `RandomJointsExample::run` to choose whether the QP should run. This flag is set through the gui in this example.
 
 See the following demo video:
 
