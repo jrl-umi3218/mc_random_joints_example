@@ -655,16 +655,15 @@
         ]
       },
       "locked": {
-        "lastModified": 1776959992,
-        "narHash": "sha256-XiqI51yAW1/eqwwR+FFmTq3ps+bJG8AZ5YwJNo6ML7A=",
+        "lastModified": 1776976276,
+        "narHash": "sha256-9GOpHd4cNUD8eRBuDZWq9K6sPmC78lvZPKMpobjCJTA=",
         "owner": "jrl-umi3218",
         "repo": "mc_rtc",
-        "rev": "9cc2f5787ceaa501f2f8b8acc295a8fec88c5143",
+        "rev": "63fcaf6dc21b3aced265e413d613404365161134",
         "type": "github"
       },
       "original": {
         "owner": "jrl-umi3218",
-        "ref": "pull/526/head",
         "repo": "mc_rtc",
         "type": "github"
       }
@@ -727,16 +726,17 @@
         ]
       },
       "locked": {
-        "lastModified": 1776856128,
-        "narHash": "sha256-EtnWqccYhojwzf0blVZ4+Xhth5e1i28D8nxaai0jDT8=",
+        "lastModified": 1777014684,
+        "narHash": "sha256-x0ORZnQ2MMj8CWHcEnhBbj0/UTadVsgwTIu3aeeCq+A=",
         "owner": "mc-rtc",
         "repo": "nixpkgs",
-        "rev": "9a56f6f6bbc3f8acf29193dc4c5ceba85b12fdf2",
+        "rev": "9e8fa0fa0b9370601c63985aadd642323d153b4c",
         "type": "github"
       },
       "original": {
         "owner": "mc-rtc",
         "repo": "nixpkgs",
+        "rev": "9e8fa0fa0b9370601c63985aadd642323d153b4c",
         "type": "github"
       }
     },
